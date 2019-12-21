@@ -44,11 +44,18 @@ To run either one of the scripts:
 
 3. Run the script by running the following command:
 
-```bash
-python main.py
-```
+  ```bash
+  python main.py
+  ```
 
 When finished, the script prints the results to the terminal and exports the results to a text file in the same directory as the script.
+
+## Jupyter Notebook
+
+This repository includes Jupyter Notebook files for both scripts, where the scripts can be viewwed/executed as well.
+
+* [PyBank](./PyBank/PyBank.ipynb)
+* [PyPoll](./PyPoll/PyPoll.pynb)
 
 ## Technologies used
 
