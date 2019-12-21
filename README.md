@@ -6,7 +6,11 @@ Python scripts used to help analyze budget/financial data (PyBank) and to help a
 
 For this project, I created two Python scripts.
 
-### PyBank
+* [PyBank](#pybank)
+* [PyPoll](#pypoll)
+
+
+### <a name="pybank"></a>PyBank
 
 Inside the **PyBank** folder, you will find a script that is used to help analyze budget/financial data for a company. The data is in a csv file and includes two columns, **Date** and **Profit/Losses**. The csv file being analyzed is located [here](./PyBank/Resources/budget_data.csv).
 
@@ -20,7 +24,7 @@ When you run the script, the script analyzes the profit/losses numbers and calcu
 
 When the script is finished, the financial analysis will be printed to the terminal as well as exported to a text file in the same directory as the script.
 
-### PyPoll
+### <a name="pypoll"></a>PyPoll
 
 Inside the **PyPoll** folder, you will find a script tht is used to help a small, rural town modernize its vote-counting process. The data is in a csv file and includes three columns, **Voter ID**, **County**, and **Candidate**. The csv file being analyzed is located [here](./PyPoll/Resources/election_data.csv).
 
@@ -50,7 +54,7 @@ To run either one of the scripts:
 
 When finished, the script prints the results to the terminal and exports the results to a text file in the same directory as the script.
 
-## Sample Output
+## Sample output
 
 After running a script, the results are printed to the terminal, similar to the following examples:
 
@@ -99,7 +103,7 @@ Winner: Khan
 
 ## Jupyter Notebook
 
-This repository includes Jupyter Notebook files for both **PyBank** and **PyPoll**, where the scripts can be viewed/executed as well.
+This repository includes Jupyter Notebook files for both **PyBank** and **PyPoll**, which is where the scripts can be viewed/executed as well.
 
 * [PyBank](./PyBank/PyBank.ipynb)
 * [PyPoll](./PyPoll/PyPoll.ipynb)
