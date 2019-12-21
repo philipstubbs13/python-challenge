@@ -8,7 +8,7 @@ For this project, I created two Python scripts.
 
 ### PyBank
 
-Inside the **PyBank** folder, you will find a script that is used to help analyze budget/financial data for a company. The data is in a csv file and includes two columns, **Date** and **Profit/Losses**. The csv file being analyzed is located ![here](./PyBank/Resources/budget_data.csv).
+Inside the **PyBank** folder, you will find a script that is used to help analyze budget/financial data for a company. The data is in a csv file and includes two columns, **Date** and **Profit/Losses**. The csv file being analyzed is located [here](./PyBank/Resources/budget_data.csv).
 
 When you run the script, the script analyzes the profit/losses numbers and calculates the following:
 
@@ -22,7 +22,7 @@ When the script is finished, the financial analysis will be printed to the termi
 
 ### PyPoll
 
-Inside the **PyPoll** folder, you will find a script tht is used to help a small, rural town modernize its vote-counting process. The data is in a csv file and includes three columns, **Voter ID**, **County**, and **Candidate**. The csv file being analyzed is located ![here](./PyPoll/Resources/election_data.csv).
+Inside the **PyPoll** folder, you will find a script tht is used to help a small, rural town modernize its vote-counting process. The data is in a csv file and includes three columns, **Voter ID**, **County**, and **Candidate**. The csv file being analyzed is located [here](./PyPoll/Resources/election_data.csv).
 
 When you run the script, the script analyzes the votes and calculates the following:
 
