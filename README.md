@@ -34,6 +34,22 @@ When you run the script, the script analyzes the votes and calculates the follow
 
 When the script is finished, the election results will be printed to the terminal as well as exported to a text file in the same directory as the script.
 
+## Running the scripts
+
+To run either one of the scripts:
+
+1. Download or clone this repository to a local directory on your computer.
+
+2. From a command line terminal, change directory into the root directory (**python-challenge**) and then into the **PyBank** or **PyPoll** directory, depending on which script you want to run.
+
+3. Run the script by running the following command:
+
+```bash
+python main.py
+```
+
+When finished, the script prints the results to the terminal and exports the results to a text file in the same directory as the script.
+
 ## Technologies used
 
 The following technologies were used to build the scripts:
