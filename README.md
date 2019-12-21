@@ -25,7 +25,7 @@ When you run the script, the script analyzes the profit/losses numbers and calcu
 * The greatest increase in profits (date and amount) over the entire period.
 * The greatest decrease in losses (date and amount) over the entire period.
 
-When the script is finished, the financial analysis will be printed to the terminal as well as exported to a text file in the same directory as the script.
+When the script is finished, the financial analysis will be printed to the terminal as well as exported to a [text file](./PyBank/financial_results.txt) in the same directory as the script.
 
 ### <a name="pypoll"></a>PyPoll
 
@@ -42,7 +42,7 @@ When you run the script, the script analyzes the votes and calculates the follow
 * The total number of votes each candidate won
 * The winner of the election based on popular vote.
 
-When the script is finished, the election results will be printed to the terminal as well as exported to a text file in the same directory as the script.
+When the script is finished, the election results will be printed to the terminal as well as exported to a [text file](./PyPoll/election_results.txt) in the same directory as the script.
 
 ## Running the scripts
 
