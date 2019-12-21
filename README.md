@@ -52,10 +52,10 @@ When finished, the script prints the results to the terminal and exports the res
 
 ## Jupyter Notebook
 
-This repository includes Jupyter Notebook files for both scripts, where the scripts can be viewwed/executed as well.
+This repository includes Jupyter Notebook files for both scripts, where the scripts can be viewed/executed as well.
 
 * [PyBank](./PyBank/PyBank.ipynb)
-* [PyPoll](./PyPoll/PyPoll.pynb)
+* [PyPoll](./PyPoll/PyPoll.ipynb)
 
 ## Technologies used
 
