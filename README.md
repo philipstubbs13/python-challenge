@@ -29,17 +29,17 @@ When the script is finished, the financial analysis will be printed to the termi
 
 ### <a name="pypoll"></a>PyPoll
 
-Inside the **PyPoll** folder, you will find a script tht is used to help a small, rural town modernize its vote-counting process. The data is in a csv file and includes three columns, **Voter ID**, **County**, and **Candidate**. 
+Inside the **PyPoll** folder, you will find a script that is used to help a small, rural town modernize its vote-counting process. The data is in a csv file and includes three columns, **Voter ID**, **County**, and **Candidate**. 
 
 The csv file being analyzed is located [here](./PyPoll/Resources/election_data.csv).
 The script file is located [here](./PyPoll/main.py).
 
 When you run the script, the script analyzes the votes and calculates the following:
 
-* The total number of votes cast
-* A complete list of candidates who received votes
-* The percentage of votes each candidate won
-* The total number of votes each candidate won
+* The total number of votes cast.
+* A complete list of candidates who received votes.
+* The percentage of votes each candidate won.
+* The total number of votes each candidate won.
 * The winner of the election based on popular vote.
 
 When the script is finished, the election results will be printed to the terminal as well as exported to a [text file](./PyPoll/election_results.txt) in the same directory as the script.
