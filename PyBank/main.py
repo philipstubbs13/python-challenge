@@ -4,11 +4,14 @@ import pandas as pd
 # Create a reference to the csv file we want to read.
 budget_csv = "Resources/budget_data.csv"
 
-# Read the csv using pandas
+# Read the csv.
 budget_df = pd.read_csv(budget_csv)
 
-# Print the first 5 rows of data
-budget_df.head()
+# Print the first 5 rows of data (jupyter notebook only)
+# budget_df.head()
+
+# Print data
+print(budget_df)
 
 # Calculate the total number of months included in the dataset.
 num_months = budget_df["Date"].count()
@@ -84,6 +87,7 @@ print(f"Greatest decrease date: {greatest_decrease_date}")
 budget_df_ascending.head()
 
 # Print the analysis to the terminal and export a text file with the results.
+print("-----------------------------------")
 print("Financial Analysis")
 print("-----------------------------------")
 print(f"Total Months: {num_months}")
@@ -97,6 +101,7 @@ print("Greatest Decrease in Profits: " + greatest_decrease_date +
 # Export a text file with the results.
 with open("financial_results.txt", 'w') as file:
 
+    file.write("-------------------------------------------------------\r\n")
     file.write("Financial Analysis\r\n")
     file.write(
         "---------------------------------------------------------------\r\n")

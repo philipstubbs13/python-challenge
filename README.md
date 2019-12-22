@@ -50,7 +50,7 @@ To run either one of the scripts:
 
 1. Download or clone this repository to a local directory on your computer.
 
-2. From a command line terminal (for example, Git Bash on Windows), change directory into the root directory (**python-challenge**) and then into the **PyBank** or **PyPoll** directory, depending on which script you want to run.
+2. From a command line terminal (for example, Git Bash on Windows), change directory into the root directory (**python-challenge**) and then change directory into the **PyBank** or **PyPoll** directory, depending on which script you want to run.
 
 3. Run the script by running the following command:
 
@@ -68,6 +68,20 @@ After running a script, the results are printed to the terminal, similar to the 
 
 ```bash
 $ python main.py
+        Date  Profit/Losses
+0   Jan-2010         867884
+1   Feb-2010         984655
+2   Mar-2010         322013
+3   Apr-2010         -69417
+4   May-2010         310503
+..       ...            ...
+81  Oct-2016         102685
+82  Nov-2016         795914
+83  Dec-2016          60988
+84  Jan-2017         138230
+85  Feb-2017         671099
+
+[86 rows x 2 columns]
 Total number of months: 86
 Net total amount of profit/losses: $38382578
 Average of changes: $-2315.12
@@ -75,6 +89,7 @@ Greatest increase amount: $1926159.0
 Greatest increase date: Feb-2012
 Greatest decrease amount: $-2196167.0
 Greatest decrease date: Sep-2013
+-----------------------------------
 Financial Analysis
 -----------------------------------
 Total Months: 86
@@ -88,19 +103,38 @@ Greatest Decrease in Profits: Sep-2013, $-2,196,167.00
 
 ```bash
 $ python main.py
+         Voter ID County Candidate
+0        12864552  Marsh      Khan
+1        17444633  Marsh    Correy
+2        19330107  Marsh      Khan
+3        19865775  Queen      Khan
+4        11927875  Marsh      Khan
+...           ...    ...       ...
+3520996  18050509  Marsh      Khan
+3520997  13060332  Marsh      Khan
+3520998  16754708  Queen      Khan
+3520999  12083146  Queen      Khan
+3521000  14526187  Queen  O'Tooley
+
+[3521001 rows x 3 columns]
 Total number of votes cast: 3521001
+List of candidates who have received votes:
+['Khan' 'Correy' 'Li' "O'Tooley"]
+Number of votes each candidate won:
 [2218231, 704200, 492940, 105630]
+Percentage of votes each candidate won:
 [63.0, 20.0, 14.0, 3.0]
 Winner: Khan
+---------------------------------------------------------------
 Election Results
 ---------------------------------------------------------------
-Total votes: 3521001
+Total votes: 3,521,001
 ---------------------------------------------------------------
-Candidates  Number of Votes  Percentage of Votes (%)
-      Khan          2218231                     63.0
-    Correy           704200                     20.0
-        Li           492940                     14.0
-  O'Tooley           105630                      3.0
+Candidates  Number of Votes Percentage of Votes (%)
+      Khan        2,218,231                   63.0%
+    Correy          704,200                   20.0%
+        Li          492,940                   14.0%
+  O'Tooley          105,630                    3.0%
 ---------------------------------------------------------------
 Winner: Khan
 ---------------------------------------------------------------
